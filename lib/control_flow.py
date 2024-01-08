@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 
 def admin_login(username, password):
-    # your code here
-    # age = 1
-    # if age < 2:
-    #   is_baby = 'baby'
-    # else:
-    #   is_baby = 'not a baby'
     if (username == "admin" or username == "ADMIN") and password == "12345":
         return "Access granted"
     else:
